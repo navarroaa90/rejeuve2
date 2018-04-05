@@ -13,6 +13,19 @@
         <div  class="center-align">
           <h5 id="initial">*First time initial assessment is to discuss and observe your body alignment as well your fitness goals.</h5>
         </div>
+        <a class="waves-effect waves-light btn modal-trigger pulse" href="#modal1">Specials!</a>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Limited Time Specials</h4>
+        <p> New Client Special</p><br>
+        <p> 3 private sessions for $15</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+      </div>
+    </div>
           <table class="highlight">
         <thead>
           <tr>
@@ -82,6 +95,10 @@
       
       
             </div>
+            <script> $(document).ready(function(){
+                $('.modal').modal();
+              });
+                  </script>
 </body>
 <%- include footer.ejs %>
 </html>
