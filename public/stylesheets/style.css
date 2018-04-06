@@ -16,7 +16,10 @@ p, li, td {
 }
 a {
   color: #00B7FF;
-  font-size: 30px;
+}
+
+.tab {
+  font-size: 20px;
 }
 
 .nav-wrapper {
@@ -25,7 +28,7 @@ a {
 
 }
 nav ul a {
-  padding: 0px 92px !important;
+  padding: 0px 90px !important;
 }
 
 .material-icons {
