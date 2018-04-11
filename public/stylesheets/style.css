@@ -18,6 +18,16 @@ a {
   color: #00B7FF;
 }
 
+.btn {
+  background-color: #A5F2F3 !important;
+  color: black !important;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.pulse::before {
+  background-color: rgb(169, 77, 149)!important;
+}
+
 .tab {
   font-size: 20px;
 }
@@ -28,7 +38,7 @@ a {
 
 }
 nav ul a {
-  padding: 0px 90px !important;
+  padding: 0px 75px !important;
 }
 
 .material-icons {
@@ -46,7 +56,6 @@ color: purple;
 
 .responsive-img {
   position: relative;
-  box-shadow: 5px 4px 9px 1px
 }
 
 .p.left-align.light {
