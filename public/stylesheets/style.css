@@ -18,10 +18,30 @@ a {
   color: #00B7FF;
 }
 
+.logo1 {
+ height: 50%;
+ width: 50%;
+ margin: 33px 185px;
+}
+.bg {
+  background-image: url("https://i.imgur.com/DKguFZm.jpg");
+  background-color: rgba(238, 238, 238, 0.81) !important;
+  background-blend-mode: color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  margin: 0 auto;
+}
+
+#starbtn {
+  border-radius: 45px !important;
+  margin: 0px 263px !important;
+}
 .btn {
   background-color: #A5F2F3 !important;
   color: black !important;
   font-family: 'Cormorant Garamond', serif;
+  
 }
 
 .pulse::before {
@@ -50,8 +70,8 @@ color: purple;
 }
 
 .logo {
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
 }
 
 .responsive-img {
