@@ -61,6 +61,10 @@ nav ul a {
   padding: 0px 75px !important;
 }
 
+nav .brand-logo {
+  width: 29% !important;
+}
+
 .material-icons {
 color: purple;
 }
@@ -70,8 +74,8 @@ color: purple;
 }
 
 .logo {
-  height: 30%;
-  width: 30%;
+  height: 50%;
+  width: 50%;
 }
 
 .responsive-img {
