@@ -1,4 +1,12 @@
-body {background:  white;
+html {
+  height: 100%
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 p, h4, h5, th, td, li {
@@ -35,7 +43,7 @@ a {
 
 #starbtn {
   border-radius: 45px !important;
-  margin: 0px 263px !important;
+
 }
 .btn {
   background-color: #A5F2F3 !important;
