@@ -10,7 +10,7 @@ body {
 }
 
 p, h4, h5, th, td, li {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Julius Sans One', sans-serif;
 
 }
 
@@ -39,6 +39,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover !important;
   margin: 0 auto;
+}
+
+.bg:hover {
+  opacity: 1.0;
 }
 
 #starbtn {
