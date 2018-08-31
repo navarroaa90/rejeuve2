@@ -10,7 +10,7 @@ body {
 }
 
 p, h4, h5, th, td, li {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Cormorant Garamond', serif !important;
 
 }
 
@@ -32,7 +32,7 @@ a {
  margin: 33px 185px;
 }
 .bg {
-  background-image: url("https://i.imgur.com/DKguFZm.jpg");
+  background-image: url("https://imgur.com/bzaDbYx.jpg");
   background-color: rgba(238, 238, 238, 0.81) !important;
   background-blend-mode: color;
   background-position: center;
